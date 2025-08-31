@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAIFULISLAM - Web Designer & Developer</title>
+    <meta
+      name="description"
+      content="Professional web designer and developer specializing in modern, responsive websites with cutting-edge animations and 3D effects."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          <span class="gradient-text">SAIFULISLAM</span>
+        </a>
+
+        <div class="d-flex align-items-center order-lg-2">
+          <!-- Theme Toggle -->
+          <button
+            class="btn btn-outline-light me-3 theme-toggle"
+            type="button"
+            id="themeToggle"
+          >
+            <i class="bi bi-sun-fill" id="themeIcon"></i>
+          </button>
+
+          <!-- Download CV Button -->
+          <a href="#cv" class="btn btn-primary me-3 d-none d-md-inline-block">
+            <i class="bi bi-download me-2"></i>Download CV
+          </a>
+
+          <!-- Mobile Toggle -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cv">CV</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#showcase">3D Showcase</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero-section min-vh-100 d-flex align-items-center position-relative"
+    >
+      <!-- 3D Animated Background -->
+      <div class="hero-background">
+        <div class="floating-particles">
+          <div class="particle particle-1"></div>
+          <div class="particle particle-2"></div>
+          <div class="particle particle-3"></div>
+          <div class="particle particle-4"></div>
+          <div class="particle particle-5"></div>
+        </div>
+        <div class="rotating-shapes">
+          <div class="shape-bg shape-bg-1"></div>
+          <div class="shape-bg shape-bg-2"></div>
+          <div class="shape-bg shape-bg-3"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="display-3 fw-bold mb-3 fade-in">
+                Hi, I'm <span class="titlename">SAIFULISLAM</span>
+              </h1>
+              <h2 class="h3 text-muted mb-4 fade-in delay-1">
+                Web Designer & Developer
+              </h2>
+              <p class="lead mb-4 fade-in delay-2">
+                A passionate beginner in web design and development, dedicated
+                to creating stunning websites with beautiful animations and
+                modern design principles.
+              </p>
+              <div class="hero-buttons fade-in delay-3">
+                <a href="#projects" class="btn btn-primary btn-lg me-3">
+                  <i class="bi bi-rocket-takeoff me-2"></i>View My Projects
+                </a>
+                <!-- <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                Get In Touch
+                            </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual fade-in delay-2">
+              <div class="floating-card parallax-element" data-speed="0.5">
+                <div class="card glass-card tilt-card">
+                  <div class="card-body text-center">
+                    <div class="avatar-container mb-3">
+                      <div class="avatar">
+                        <img
+                          src="./public/WhatsApp Image 2025-05-28 at 12.26.20 PM.jpeg"
+                          alt="SAIFULISLAM"
+                        />
+                      </div>
+                      <div class="avatar-glow"></div>
+                    </div>
+                    <h5 class="card-title">Available for Projects</h5>
+                    <p class="card-text text-muted">
+                      Ready to bring your ideas to life
+                    </p>
+                    <div class="status-indicator">
+                      <span class="status-dot"></span>
+                      <small>Online Every Time</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">About Me</h2>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-image reveal-left">
+              <div class="profile-card-3d">
+                <div class="profile-image-container">
+                  <img
+                    src="./public/WhatsApp Image 2025-05-28 at 12.26.20 PM.jpeg"
+                    alt="Working on design"
+                    class="img-fluid rounded-4 shadow-lg profile-image"
+                  />
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content reveal-right">
+              <h3 class="h2 mb-4">Passionate Beginner in Web Design</h3>
+              <p class="lead mb-4">
+                I'm an enthusiastic beginner in web design and development,
+                passionate about learning and creating beautiful, user-friendly
+                websites with stunning animations and modern design.
+              </p>
+              <p class="mb-4">
+                I'm constantly learning modern web technologies, responsive
+                design principles, and exploring creative ways to bring websites
+                to life through animations and interactive elements.
+              </p>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="stat-item">
+                    <h4 class="h3 text-primary mb-0">5+</h4>
+                    <small class="text-muted">Completed Projects</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="stat-item">
+                    <h4 class="h3 text-primary mb-0">8+</h4>
+                    <small class="text-muted">Months Experience</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-body-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">
+              Skills & Expertise
+            </h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-1">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-filetype-html"></i>
+                </div>
+              </div>
+              <h6>HTML5</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="90"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-2">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-filetype-css"></i>
+                </div>
+              </div>
+              <h6>CSS3</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-3">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-filetype-js"></i>
+                </div>
+              </div>
+              <h6>JavaScript</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-4">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-bootstrap"></i>
+                </div>
+              </div>
+              <h6>Bootstrap</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-5">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-wind"></i>
+                </div>
+              </div>
+              <h6>Tailwind CSS</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="skill-card reveal-up delay-6">
+              <div class="skill-icon-3d">
+                <div class="rotating-icon">
+                  <i class="bi bi-magic"></i>
+                </div>
+              </div>
+              <h6>Animations</h6>
+              <div class="skill-progress">
+                <div class="progress-bar" data-width="65"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">
+              Featured Projects
+            </h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="project-showcase reveal-up delay-1">
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    alt="E-commerce Website"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h4 class="mb-3">View Project</h4>
+                      <div class="project-buttons">
+                        <a href="#" class="project-btn project-btn-primary">
+                          <i class="bi bi-eye me-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="project-btn project-btn-secondary">
+                          <i class="bi bi-github me-2"></i>Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">E-commerce Platform</h4>
+                  <p class="project-description">
+                    Modern e-commerce website with responsive design, smooth
+                    animations, and user-friendly interface.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">HTML5</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="project-showcase reveal-up delay-2">
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    alt="Portfolio Website"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h4 class="mb-3">View Project</h4>
+                      <div class="project-buttons">
+                        <a href="#" class="project-btn project-btn-primary">
+                          <i class="bi bi-eye me-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="project-btn project-btn-secondary">
+                          <i class="bi bi-github me-2"></i>Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">Creative Portfolio</h4>
+                  <p class="project-description">
+                    Interactive portfolio website featuring 3D elements,
+                    advanced CSS animations, and modern design patterns.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">Bootstrap</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">Animations</span>
+                    <span class="project-tag">3D Effects</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="project-showcase reveal-up delay-3">
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    alt="Responsive Website"
+                  />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h4 class="mb-3">View Project</h4>
+                      <div class="project-buttons">
+                        <a href="#" class="project-btn project-btn-primary">
+                          <i class="bi bi-eye me-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="project-btn project-btn-secondary">
+                          <i class="bi bi-github me-2"></i>Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">Responsive Design</h4>
+                  <p class="project-description">
+                    Mobile-first responsive website design with beautiful
+                    layouts that work perfectly across all devices.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">Responsive</span>
+                    <span class="project-tag">Mobile-First</span>
+                    <span class="project-tag">Bootstrap</span>
+                    <span class="project-tag">CSS Grid</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="py-5 bg-body-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">
+              Curriculum Vitae
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="cv-preview-card reveal-up">
+              <div class="cv-header text-center mb-4">
+                <div class="cv-avatar mb-3">
+                  <img
+                    src="./public/WhatsApp Image 2025-05-28 at 12.26.20 PM.jpeg"
+                    alt="SAIFULISLAM"
+                    class="rounded-circle"
+                  />
+                </div>
+                <h3 class="mb-1">SAIFULISLAM</h3>
+                <p class="text-muted mb-3">Web Designer & Developer</p>
+                <div class="cv-download">
+                  <a
+                    href="./assets/cv.pdf"
+                    download
+                    class="btn btn-primary btn-lg"
+                  >
+                    <i class="bi bi-download me-2"></i>
+                    Download CV (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="cv-section">
+                    <h4 class="h5 mb-3">
+                      <i class="bi bi-briefcase text-primary me-2"></i>
+                      Learning Journey
+                    </h4>
+                    <div class="timeline-item">
+                      <h6>Self-Taught Developer</h6>
+                      <small class="text-muted"
+                        >Personal Projects | 2024 - Present</small
+                      >
+                      <p class="mt-2">
+                        Building personal projects to learn modern web
+                        development, focusing on responsive design and
+                        animations.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <h6>Web Design Student</h6>
+                      <small class="text-muted">Online Courses | 2024</small>
+                      <p class="mt-2">
+                        Completed various online courses in HTML, CSS,
+                        JavaScript, and modern web design principles.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="cv-section">
+                    <h4 class="h5 mb-3">
+                      <i class="bi bi-mortarboard text-primary me-2"></i>
+                      Skills & Learning
+                    </h4>
+                    <div class="timeline-item">
+                      <h6>Frontend Technologies</h6>
+                      <small class="text-muted">HTML5, CSS3, JavaScript</small>
+                      <p class="mt-2">
+                        Proficient in modern web technologies with focus on
+                        responsive design and user experience.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <h6>Design & Animation</h6>
+                      <small class="text-muted"
+                        >CSS Animations, Bootstrap, Tailwind</small
+                      >
+                      <p class="mt-2">
+                        Creating engaging user interfaces with smooth animations
+                        and modern design frameworks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D Showcase Section -->
+    <section id="showcase" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">
+              3D Showcase
+            </h2>
+            <p class="text-center text-muted mb-5 reveal-up delay-1">
+              Interactive 3D elements created with pure CSS
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-1">
+              <div class="showcase-3d">
+                <div class="cube-container">
+                  <div class="cube">
+                    <div class="face front">CSS</div>
+                    <div class="face back">HTML</div>
+                    <div class="face right">JS</div>
+                    <div class="face left">React</div>
+                    <div class="face top">Vue</div>
+                    <div class="face bottom">Node</div>
+                  </div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">Interactive Cube</h5>
+              <p class="text-center text-muted">Pure CSS 3D transformation</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-2">
+              <div class="showcase-3d">
+                <div class="floating-shapes">
+                  <div class="shape shape-1"></div>
+                  <div class="shape shape-2"></div>
+                  <div class="shape shape-3"></div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">Floating Elements</h5>
+              <p class="text-center text-muted">Animated 3D shapes</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-3">
+              <div class="showcase-3d">
+                <div class="morphing-shape">
+                  <div class="morph"></div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">Morphing Shape</h5>
+              <p class="text-center text-muted">CSS-powered transformation</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-4">
+              <div class="showcase-3d">
+                <div class="pyramid-container">
+                  <div class="pyramid">
+                    <div class="pyramid-face pyramid-front"></div>
+                    <div class="pyramid-face pyramid-back"></div>
+                    <div class="pyramid-face pyramid-left"></div>
+                    <div class="pyramid-face pyramid-right"></div>
+                  </div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">3D Pyramid</h5>
+              <p class="text-center text-muted">Geometric 3D shape</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-5">
+              <div class="showcase-3d">
+                <div class="sphere-container">
+                  <div class="sphere">
+                    <div class="sphere-ring ring-1"></div>
+                    <div class="sphere-ring ring-2"></div>
+                    <div class="sphere-ring ring-3"></div>
+                  </div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">Orbital Sphere</h5>
+              <p class="text-center text-muted">Rotating ring system</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-item reveal-up delay-6">
+              <div class="showcase-3d">
+                <div class="wave-container">
+                  <div class="wave wave-1"></div>
+                  <div class="wave wave-2"></div>
+                  <div class="wave wave-3"></div>
+                </div>
+              </div>
+              <h5 class="text-center mt-3">Wave Animation</h5>
+              <p class="text-center text-muted">Fluid wave motion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-body-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title text-center mb-5 reveal-up">
+              Get In Touch
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="contact-info reveal-up delay-1">
+                  <div class="contact-icon animated-icon">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <h6>Email</h6>
+                  <a href="mailto:saifulislamshams37@gmail.com"
+                    >saifulislamshams37@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-info reveal-up delay-2">
+                  <div class="contact-icon animated-icon">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <h6>Phone</h6>
+                  <a href="tel:+1234567890">+92 (313) 9751619</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-info reveal-up delay-3">
+                  <div class="contact-icon animated-icon">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <h6>Location</h6>
+                  <span>Unversity Town, Peshawar</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form mt-5 reveal-up delay-4" id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label for="name">Your Name</label>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <label for="email">Your Email</label>
+                    <div class="invalid-feedback">
+                      Please enter a valid email.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      style="height: 120px"
+                      placeholder="Your Message"
+                      required
+                    ></textarea>
+                    <label for="message">Your Message</label>
+                    <div class="invalid-feedback">
+                      Please enter your message.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-send me-2"></i>
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Social Links -->
+            <div class="social-section text-center mt-5 reveal-up delay-5">
+              <h5 class="mb-4">Connect With Me</h5>
+              <div class="social-icons">
+                <a
+                  href="#"
+                  class="social-icon"
+                  data-bs-toggle="tooltip"
+                  title="GitHub"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon"
+                  data-bs-toggle="tooltip"
+                  title="LinkedIn"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon"
+                  data-bs-toggle="tooltip"
+                  title="Twitter"
+                >
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon"
+                  data-bs-toggle="tooltip"
+                  title="Instagram"
+                >
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="py-4 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 SAIFULISLAM. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-light me-3">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" class="text-light me-3">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="text-light">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">
+              &copy; <span id="year">2025</span> SAIFULISLAM. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div class="social-links">
+              <a href="#" class="text-light me-3"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="text-light me-3"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a href="#" class="text-light me-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
